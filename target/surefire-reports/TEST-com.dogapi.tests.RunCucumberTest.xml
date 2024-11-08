@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.dogapi.tests.RunCucumberTest" time="8.471" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="cucumber.publish.quiet" value="true"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\jhody.mike.da.silva\Desktop\dogapi-automation\target\test-classes;C:\Users\jhody.mike.da.silva\Desktop\dogapi-automation\target\classes;C:\Users\jhody.mike.da.silva\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\cucumber-java\7.9.0\cucumber-java-7.9.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\cucumber-junit\7.9.0\cucumber-junit-7.9.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\cucumber-core\7.9.0\cucumber-core-7.9.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\cucumber-gherkin\7.9.0\cucumber-gherkin-7.9.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.9.0\cucumber-gherkin-messages-7.9.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\datatable\7.9.0\datatable-7.9.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\cucumber-plugin\7.9.0\cucumber-plugin-7.9.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\docstring\7.9.0\docstring-7.9.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\gherkin\26.0.0\gherkin-26.0.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\jhody.mike.da.silva\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\jhody.mike.da.silva\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\jhody.mike.da.silva\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\jhody.mike.da.silva\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\jhody.mike.da.silva\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\jhody.mike.da.silva\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.5\jackson-databind-2.12.5.jar;C:\Users\jhody.mike.da.silva\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.5\jackson-annotations-2.12.5.jar;C:\Users\jhody.mike.da.silva\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.5\jackson-core-2.12.5.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.20.1\allure-cucumber7-jvm-2.20.1.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\qameta\allure\allure-java-commons\2.20.1\allure-java-commons-2.20.1.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\qameta\allure\allure-model\2.20.1\allure-model-2.20.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\jhody.mike.da.silva\AppData\Local\Temp\surefire9435216439204778295\surefirebooter12936601776004642327.jar C:\Users\jhody.mike.da.silva\AppData\Local\Temp\surefire9435216439204778295 2024-11-07T21-09-29_534-jvmRun1 surefire7345428758535640461tmp surefire_08058342325878146305tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\jhody.mike.da.silva\Desktop\dogapi-automation\target\test-classes;C:\Users\jhody.mike.da.silva\Desktop\dogapi-automation\target\classes;C:\Users\jhody.mike.da.silva\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\cucumber-java\7.9.0\cucumber-java-7.9.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\cucumber-junit\7.9.0\cucumber-junit-7.9.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\cucumber-core\7.9.0\cucumber-core-7.9.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\cucumber-gherkin\7.9.0\cucumber-gherkin-7.9.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.9.0\cucumber-gherkin-messages-7.9.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\datatable\7.9.0\datatable-7.9.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\cucumber-plugin\7.9.0\cucumber-plugin-7.9.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\docstring\7.9.0\docstring-7.9.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\cucumber\gherkin\26.0.0\gherkin-26.0.0.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\jhody.mike.da.silva\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\jhody.mike.da.silva\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\jhody.mike.da.silva\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\jhody.mike.da.silva\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\jhody.mike.da.silva\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\jhody.mike.da.silva\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\jhody.mike.da.silva\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.5\jackson-databind-2.12.5.jar;C:\Users\jhody.mike.da.silva\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.5\jackson-annotations-2.12.5.jar;C:\Users\jhody.mike.da.silva\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.5\jackson-core-2.12.5.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.20.1\allure-cucumber7-jvm-2.20.1.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\qameta\allure\allure-java-commons\2.20.1\allure-java-commons-2.20.1.jar;C:\Users\jhody.mike.da.silva\.m2\repository\io\qameta\allure\allure-model\2.20.1\allure-model-2.20.1.jar;"/>
+    <property name="allure.results.directory" value="C:\Users\jhody.mike.da.silva\Desktop\dogapi-automation/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jhody.mike.da.silva"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\jhody.mike.da.silva\Desktop\dogapi-automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\jhody.mike.da.silva\AppData\Local\Temp\surefire9435216439204778295\surefirebooter12936601776004642327.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="cucumber.plugin" value="io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="user.name" value="jhody.mike.da.silva"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\jhody.mike.da.silva\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\JHODYM~1.SIL\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="C:\Users\jhody.mike.da.silva\Desktop\dogapi-automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.8.8-bin\apache-maven-3.8.8\bin;C:\Windows\System32\cmd.exe;C:\Program Files\wkhtmltopdf\bin;C:\Program Files (x86)\PDFtk Server\bin;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\k6\k6-v0.46.0-windows-amd64\k6-v0.46.0-windows-amd64;C:\Program Files\k6\;C:\Program Files\Go\bin;C:\Program Files\nodejs\;C:\Users\jhody.mike.da.silva\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\jhody.mike.da.silva\AppData\Local\Programs\Python\Python312\;C:\Program Files;C:\Users\jhody.mike.da.silva\Desktop\chrome\chromedriver-win64\chromedriver-win64;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Users\jhody.mike.da.silva\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\jhody.mike.da.silva\AppData\Local\Programs\Python\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.8.8-bin\apache-maven-3.8.8\bin;C:\Windows\System32\cmd.exe;C:\Program Files\wkhtmltopdf\bin;C:\Program Files (x86)\PDFtk Server\bin;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Common Files\Pulse Secure\VC142.CRT\X86\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\k6\k6-v0.46.0-windows-amd64\k6-v0.46.0-windows-amd64;C:\Program Files\k6\;C:\Program Files\Go\bin;C:\Program Files\nodejs\;C:\Users\jhody.mike.da.silva\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\jhody.mike.da.silva\AppData\Local\Programs\Python\Python312\;C:\Program Files;C:\Users\jhody.mike.da.silva\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jhody.mike.da.silva\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Solicitar imagens de uma raça existente" classname="Obter imagens de uma raça específica" time="2.616">
+    <system-out><![CDATA[
+CenÃ¡rio: Solicitar imagens de uma raÃ§a existente                      # src/test/resources/features/get_breed_images.feature:4
+  Dado que eu tenha Uma url vÃ¡lida da dogAPI                          # com.dogapi.tests.steps.CommonSteps.queEuTenhaUmaUrlValidaDaDogAPI()
+  Quando envio uma solicitaÃ§Ã£o para obter imagens da raÃ§a "retriever" # com.dogapi.tests.steps.GetBreedImagesSteps.envioUmaSolicitacaoParaObterImagensDaRaca(java.lang.String)
+  EntÃ£o o cÃ³digo de status da resposta deve ser 200                   # com.dogapi.tests.steps.CommonSteps.o_codigo_de_status_da_resposta_deve_ser(java.lang.Integer)
+  E a resposta deve conter uma lista de URLs de imagem                # com.dogapi.tests.steps.GetBreedImagesSteps.aRespostaDeveConterUmaListaDeUrlsDeImagem()
+]]></system-out>
+  </testcase>
+  <testcase name="Solicitar imagens de uma raça inexistente" classname="Obter imagens de uma raça específica" time="0.704">
+    <system-out><![CDATA[
+CenÃ¡rio: Solicitar imagens de uma raÃ§a inexistente                      # src/test/resources/features/get_breed_images.feature:10
+  Dado que eu tenha Uma url vÃ¡lida da dogAPI                            # com.dogapi.tests.steps.CommonSteps.queEuTenhaUmaUrlValidaDaDogAPI()
+  Quando envio uma solicitaÃ§Ã£o para obter imagens da raÃ§a "inexistente" # com.dogapi.tests.steps.GetBreedImagesSteps.envioUmaSolicitacaoParaObterImagensDaRaca(java.lang.String)
+  EntÃ£o o cÃ³digo de status da resposta deve ser 404                     # com.dogapi.tests.steps.CommonSteps.o_codigo_de_status_da_resposta_deve_ser(java.lang.Integer)
+]]></system-out>
+  </testcase>
+  <testcase name="Solicitar uma imagem aleatória com sucesso" classname="Obter uma imagem aleatória de um cão" time="0.679">
+    <system-out><![CDATA[
+CenÃ¡rio: Solicitar uma imagem aleatÃ³ria com sucesso                      # src/test/resources/features/get_random_image.feature:5
+  Dado que eu tenha Uma url vÃ¡lida da dogAPI                             # com.dogapi.tests.steps.CommonSteps.queEuTenhaUmaUrlValidaDaDogAPI()
+  Quando envio uma solicitaÃ§Ã£o para obter uma imagem aleatÃ³ria de um cÃ£o # com.dogapi.tests.steps.GetRandomImageSteps.envioUmaSolicitacaoParaObterUmaImagemAleatoriaDeUmCao()
+  EntÃ£o o cÃ³digo de status da resposta deve ser 200                      # com.dogapi.tests.steps.CommonSteps.o_codigo_de_status_da_resposta_deve_ser(java.lang.Integer)
+  E a resposta deve conter uma URL de imagem                             # com.dogapi.tests.steps.GetRandomImageSteps.aRespostaDeveConterUmaUrlDeImagem()
+  E a resposta deve ter a chave status como "success"                    # com.dogapi.tests.steps.CommonSteps.a_resposta_deve_ter_a_chave_status_como(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Tentar obter uma imagem aleatória usando o método PUT" classname="Obter uma imagem aleatória de um cão" time="0.674">
+    <system-out><![CDATA[
+CenÃ¡rio: Tentar obter uma imagem aleatÃ³ria usando o mÃ©todo PUT               # src/test/resources/features/get_random_image.feature:12
+  Dado que eu tenha Uma url vÃ¡lida da dogAPI                                 # com.dogapi.tests.steps.CommonSteps.queEuTenhaUmaUrlValidaDaDogAPI()
+  Quando envio uma solicitaÃ§Ã£o PUT para obter uma imagem aleatÃ³ria de um cÃ£o # com.dogapi.tests.steps.GetRandomImageSteps.envioUmaSolicitacaoPutParaObterUmaImagemAleatoriaDeUmCao()
+  EntÃ£o o cÃ³digo de status da resposta deve ser 405                          # com.dogapi.tests.steps.CommonSteps.o_codigo_de_status_da_resposta_deve_ser(java.lang.Integer)
+  E a resposta deve ter a chave status como "error"                          # com.dogapi.tests.steps.CommonSteps.a_resposta_deve_ter_a_chave_status_como(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Verificar tempo de resposta para obter imagem aleatória" classname="Obter uma imagem aleatória de um cão" time="0.527">
+    <system-out><![CDATA[
+CenÃ¡rio: Verificar tempo de resposta para obter imagem aleatÃ³ria         # src/test/resources/features/get_random_image.feature:18
+  Dado que eu tenha Uma url vÃ¡lida da dogAPI                             # com.dogapi.tests.steps.CommonSteps.queEuTenhaUmaUrlValidaDaDogAPI()
+  Quando envio uma solicitaÃ§Ã£o para obter uma imagem aleatÃ³ria de um cÃ£o # com.dogapi.tests.steps.GetRandomImageSteps.envioUmaSolicitacaoParaObterUmaImagemAleatoriaDeUmCao()
+  EntÃ£o o cÃ³digo de status da resposta deve ser 200                      # com.dogapi.tests.steps.CommonSteps.o_codigo_de_status_da_resposta_deve_ser(java.lang.Integer)
+  E o tempo de resposta deve ser menor que 1 segundo                     # com.dogapi.tests.steps.GetRandomImageSteps.oTempoDeRespostaDeveSerMenorQue(int)
+]]></system-out>
+  </testcase>
+  <testcase name="Verificar o formato da URL de imagem" classname="Obter uma imagem aleatória de um cão" time="0.72">
+    <system-out><![CDATA[
+CenÃ¡rio: Verificar o formato da URL de imagem                            # src/test/resources/features/get_random_image.feature:24
+  Dado que eu tenha Uma url vÃ¡lida da dogAPI                             # com.dogapi.tests.steps.CommonSteps.queEuTenhaUmaUrlValidaDaDogAPI()
+  Quando envio uma solicitaÃ§Ã£o para obter uma imagem aleatÃ³ria de um cÃ£o # com.dogapi.tests.steps.GetRandomImageSteps.envioUmaSolicitacaoParaObterUmaImagemAleatoriaDeUmCao()
+  EntÃ£o o cÃ³digo de status da resposta deve ser 200                      # com.dogapi.tests.steps.CommonSteps.o_codigo_de_status_da_resposta_deve_ser(java.lang.Integer)
+  E a URL de imagem deve comeÃ§ar com "https://"                          # com.dogapi.tests.steps.GetRandomImageSteps.aUrlDeImagemDeveComecarCom(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Solicitar a lista de raças com sucesso" classname="Listar todas as raças de cães" time="0.53">
+    <system-out><![CDATA[
+CenÃ¡rio: Solicitar a lista de raÃ§as com sucesso           # src/test/resources/features/list_breeds.feature:5
+  Dado que eu tenha Uma url vÃ¡lida da dogAPI              # com.dogapi.tests.steps.CommonSteps.queEuTenhaUmaUrlValidaDaDogAPI()
+  Quando envio uma solicitaÃ§Ã£o para listar todas as raÃ§as # com.dogapi.tests.steps.GetAllBreedsSteps.envioUmaSolicitacaoParaListarTodasAsRacas()
+  EntÃ£o o cÃ³digo de status da resposta deve ser 200       # com.dogapi.tests.steps.CommonSteps.o_codigo_de_status_da_resposta_deve_ser(java.lang.Integer)
+  E a resposta deve conter uma lista de raÃ§as             # com.dogapi.tests.steps.GetAllBreedsSteps.aRespostaDeveConterUmaListaDeRacas()
+  E a resposta deve ter a chave status como "success"     # com.dogapi.tests.steps.CommonSteps.a_resposta_deve_ter_a_chave_status_como(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Tentar listar raças usando um endpoint incorreto" classname="Listar todas as raças de cães" time="0.621">
+    <system-out><![CDATA[
+CenÃ¡rio: Tentar listar raÃ§as usando um endpoint incorreto # src/test/resources/features/list_breeds.feature:12
+  Dado que eu tenha Uma url invÃ¡lida da dogAPI            # com.dogapi.tests.steps.CommonSteps.queEuTenhaUmaUrlInvalidaDaDogAPI()
+  Quando envio uma solicitaÃ§Ã£o para um endpoint incorreto # com.dogapi.tests.steps.GetAllBreedsSteps.envioUmaSolicitacaoParaUmEndpointIncorreto()
+  EntÃ£o o cÃ³digo de status da resposta deve ser 404       # com.dogapi.tests.steps.CommonSteps.o_codigo_de_status_da_resposta_deve_ser(java.lang.Integer)
+  E a resposta deve ter a chave status como "error"       # com.dogapi.tests.steps.CommonSteps.a_resposta_deve_ter_a_chave_status_como(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Tentar listar raças usando o método POST" classname="Listar todas as raças de cães" time="0.569">
+    <system-out><![CDATA[
+CenÃ¡rio: Tentar listar raÃ§as usando o mÃ©todo POST              # src/test/resources/features/list_breeds.feature:18
+  Dado que eu tenha Uma url vÃ¡lida da dogAPI                   # com.dogapi.tests.steps.CommonSteps.queEuTenhaUmaUrlValidaDaDogAPI()
+  Quando envio uma solicitaÃ§Ã£o POST para listar todas as raÃ§as # com.dogapi.tests.steps.GetAllBreedsSteps.envioUmaSolicitacaoPostParaListarTodasAsRacas()
+  EntÃ£o o cÃ³digo de status da resposta deve ser 405            # com.dogapi.tests.steps.CommonSteps.o_codigo_de_status_da_resposta_deve_ser(java.lang.Integer)
+  E a resposta deve ter a chave status como "error"            # com.dogapi.tests.steps.CommonSteps.a_resposta_deve_ter_a_chave_status_como(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Verificar tempo de resposta para listar todas as raças" classname="Listar todas as raças de cães" time="0.602">
+    <system-out><![CDATA[
+CenÃ¡rio: Verificar tempo de resposta para listar todas as raÃ§as # src/test/resources/features/list_breeds.feature:24
+  Dado que eu tenha Uma url vÃ¡lida da dogAPI                    # com.dogapi.tests.steps.CommonSteps.queEuTenhaUmaUrlValidaDaDogAPI()
+  Quando envio uma solicitaÃ§Ã£o para listar todas as raÃ§as       # com.dogapi.tests.steps.GetAllBreedsSteps.envioUmaSolicitacaoParaListarTodasAsRacas()
+  EntÃ£o o cÃ³digo de status da resposta deve ser 200             # com.dogapi.tests.steps.CommonSteps.o_codigo_de_status_da_resposta_deve_ser(java.lang.Integer)
+  E o tempo de resposta deve ser menor que 2 segundos           # com.dogapi.tests.steps.GetAllBreedsSteps.oTempoDeRespostaDeveSerMenorQue(int)
+]]></system-out>
+  </testcase>
+</testsuite>

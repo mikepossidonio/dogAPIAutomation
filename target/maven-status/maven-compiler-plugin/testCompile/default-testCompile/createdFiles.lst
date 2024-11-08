@@ -1,0 +1,6 @@
+com\dogapi\tests\steps\GetRandomImageSteps.class
+com\dogapi\tests\steps\GetBreedImagesSteps.class
+com\dogapi\tests\RunCucumberTest.class
+com\dogapi\tests\steps\GetAllBreedsSteps.class
+com\dogapi\tests\steps\CommonSteps.class
+com\dogapi\tests\utils\ConfigUtils.class
